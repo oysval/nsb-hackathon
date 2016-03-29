@@ -1,5 +1,5 @@
 angular.module('nsbHackathonApp')
-  .config(function($stateProvider) {
+  .config(function ($stateProvider) {
 
     $stateProvider
       .state('index', {
