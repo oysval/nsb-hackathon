@@ -1,0 +1,27 @@
+{
+  "name": "nsb-hackathon",
+  "authors": [
+    "-"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "2.2.0",
+    "angular": "1.5.0",
+    "angular-ui-router": "0.2.18",
+    "angular-moment": "^0.10.3"
+  },
+  "resolutions": {
+    "angular": "1.5.0"
+  }
+}

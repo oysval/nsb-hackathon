@@ -1,0 +1,17 @@
+.navbar {
+  background: pink;
+
+  ul {
+    @include resetList();
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      cursor: pointer;
+
+      &.active {
+        font-weight: bold;
+      }
+    }
+  }
+}

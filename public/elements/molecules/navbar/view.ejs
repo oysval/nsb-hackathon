@@ -1,0 +1,7 @@
+<div class="navbar">
+  <ul>
+    <li ng-repeat="element in navElements" ui-sref="{{element.state}}" ng-class="{ 'active': currentState === element.state }">
+      {{element.title}}
+    </li>
+  </ul>
+</div>
